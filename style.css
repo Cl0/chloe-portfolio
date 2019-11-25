@@ -1,0 +1,213 @@
+* {
+    font-family: 'Poiret One', cursive;
+}
+
+.no-mw {
+    max-width: none;
+}
+
+
+.nav-bar {      
+    height: 2em; 
+    display: flex;
+    justify-content: flex-end; 
+    padding-top: 1em;
+    padding-right: 1em;    
+    
+}
+
+nav ul {
+    display: flex;     
+    padding: 0.5em;
+    padding-right: 2em;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    list-style: none; 
+    padding: 1em;
+    font-size: 1em; 
+    font-family: 'Poiret One', cursive; 
+    font-weight: 600;     
+    text-decoration: none; 
+    display: in-block;   
+    position: relative;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #96b2b2;
+    text-decoration: none;
+}
+
+.img-container {
+    background-image: url("images/background3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    border-bottom-right-radius: 14em; 
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.img-container::before {  
+    content: " ";
+    display: block;       
+    background-color: rgba(255,204,204, 0.8); 
+    position: absolute;
+    top: 0;
+    bottom: -60px;
+    left:0;
+    right:0;    
+}
+
+.img-container::after {
+    content: " ";
+    display: block;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    bottom: -60px;
+    left:0;
+    right:0;   
+}
+
+.img-container .row {
+    position: relative;
+    z-index: 1;    
+}
+
+h1, .home-container h2 {
+    color: white; 
+    font-family: 'Poiret One', cursive;    
+}
+
+h1 {
+    font-size: 8em;
+    text-align: center;
+    padding-top: 1em;    
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.home-container h2 {
+    font-size: 2em;
+    padding-bottom: 4em;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 0.5em;
+}
+
+.background-text {
+    color: white;
+    opacity: 0.5;
+    font-size: 20em;
+}
+
+
+.about-container {    
+    background-color: #fff;
+}
+
+.about-me-text-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.about-container h2, .projects-container h2 { 
+    color: #2A3439;   
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.projects-container h2  {
+    padding-top: 0.5em;
+}
+
+
+.about-container p {
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+    color: #2A3439;
+    text-align: justify;
+    width: 60%;
+}
+
+.projects-container {
+    background-color: #fff;
+    padding-top: 2em;
+    
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.card {
+    border-bottom-right-radius: 5em;
+}
+
+.card-subtitle {
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    font-size: 1.2em;    
+}
+
+.card-spacing {
+    padding-bottom: 1.5em;
+}
+
+.card img {
+    border-bottom-right-radius: 5em;
+}
+
+button {
+    background-color: #b29696;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    margin-top:2em;
+    margin-bottom:1em;
+}
+
+button a {
+    color: white;    
+}
+
+.contact-container {    
+    background-color: #96b2b2;
+    margin-top: 4em;
+    padding-bottom: 2em;
+}
+
+.contact-container h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-img {    
+    text-align: center;       
+    color: #b29696;    
+    font-size: 8em;
+    font-weight: 600;    
+}
+
+.contact-container h4 {
+    color: white;
+}
+
+.contact-container a:hover {
+    color: #96b2b2;
+    text-decoration: none;    
+}
+
+.github-img a:hover {
+    color: #fff;
+    text-decoration: none;    
+}
+
