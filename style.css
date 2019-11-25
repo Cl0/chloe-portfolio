@@ -40,6 +40,10 @@ nav ul li a:hover, nav ul li a.active {
     text-decoration: none;
 }
 
+.mh {
+    min-height: 75px;
+}
+
 .img-container {
     background-image: url("images/background3.jpg");
     background-size: cover;
@@ -131,7 +135,7 @@ h1 {
     font-family: 'Poiret One', cursive;
     font-weight: 600;
     color: #2A3439;
-    text-align: justify;
+    text-align: left;
     width: 60%;
 }
 
